@@ -56,9 +56,9 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	height: 500px;
 	width: auto;
 	background: #E5E7Eb;
+	padding: 50px;
 }
 
 .quote {
@@ -66,8 +66,8 @@
 	color: #1F2937;
 	font-weight: lighter;
 	font-style: italic;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 
 .attribution{
@@ -99,4 +99,13 @@
 	color: #E5E7EB;
 	border: 2px solid #E5E7EB;
 	border-radius: 10px;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  height: 60px;
 }
